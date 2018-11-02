@@ -1,11 +1,11 @@
 # demo
 
-# install this, skip if installed
-npm
-truffle
-ganache
-node
-ng
+# install t
+npm,
+truffle,
+ganache,
+node,
+ng,
 solidity (solc)
 
 # CREATING A SMART CONTRACT
