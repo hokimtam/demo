@@ -1,0 +1,22 @@
+Step 1: Create private ethereum Blockchain in PC
+
+geth --identity "Node0" --rpc --rpcport "8080" --rpccorsdomain "*" -datadir /home/hokimtam/demo/blockchain --port "30303" --nodiscover --rpcapi "db,eth,net,web3,personal,web3" --networkid 1999 init generis_healthcare.json
+
+
+Step 2: Run Blockchain server monitor
+
+geth --identity "Node0" --rpc --rpcport "8080" --rpccorsdomain "*" -datadir /home/hokimtam/demo/blockchain --port "30303" --nodiscover --rpcapi "db,eth,net,web3,personal,web3" --networkid 1999 console
+
+
+
+create Account
+personal.newAccount(“<password>”)
+personal.newAccount("123456")
+show account
+eth.accounts
+
+
+geth attach ipc:/home/hokimtam/demo/blockchain/geth.ipc
+
+miner
+miner.start()
