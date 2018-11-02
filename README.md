@@ -71,6 +71,11 @@ ng new transfer
 cd transfer
 npm start
 
+-config 4 files under /app folder
+app.component.css
+app.component.html
+app.component.ts
+app.module.ts
 
 # CONNECT TO WEB3
 
@@ -80,10 +85,9 @@ npm install web3@0.20.5
 Install truffle-contract and generate service using the following commands:
 $ npm install truffle-contract
 $ ng generate service ethcontract
-CREATE src/app/ethcontract.service.spec.ts (404 bytes)
-CREATE src/app/ethcontract.service.ts (140 bytes)
 
-http://localhost:4200
+
+check http://localhost:4200
 
 
 
