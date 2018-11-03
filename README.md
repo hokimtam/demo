@@ -67,9 +67,9 @@ truffle migrate --compile-all --reset --network ganache
 
 
 # CREATING AN ANGULAR APP
-ng new transfer
-cd transfer
-npm start
+- ng new transfer
+- cd transfer
+- npm start
 
 -config 4 files under /app folder
 app.component.css,
